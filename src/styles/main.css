@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("/src/image/bg1.png");
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+
+    background-color: #1b0e0e;
+    color: #f0ffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.panel{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #266942;
+    background-color: #87c27f;
+    background-image: url("../image/carrot.png");
+    background-size: cover;
+    
+}
+
+.enemy{
+    background-image: url("/src/image/enemy.png");
+    background-size: cover;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin: 1rem;
+}
